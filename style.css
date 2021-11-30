@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 85%;
+    height: auto;
+    /* background-color: yellow; */
+
+}
+
+.navigation{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.navigation > h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 40px 0px;
+}
+
+.nav_collection{
+    width: 109px;
+    height: 26px;
+    display: flex;
+    list-style: none;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin: -80px 470px;
+}
+
+.item{
+    margin: 0px 40px;
+}
+
+.navigation > img{
+    position: absolute;
+    width: 100px;
+    height: 350px;
+    margin: -10px -110px;
+    border-bottom-left-radius: 150px;
+    background: conic-gradient(from 180deg at 50% 50%, rgba(255, 178, 30, 0.22) 0deg, rgba(255, 255, 255, 0) 360deg);
+}
+
+.jakarta{
+    width: 100%;
+    height: 710px;
+    margin: 40px 0px;
+    position: relative;
+    display: flex;
+}
+
+.section_1{
+    width: 60%;
+    height: 100%;
+}
+
+.section_1 > p{
+    position: absolute;
+    height: 26px;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.section_1 > img{
+    position: absolute;
+    width: 180px;
+    margin: 35px 0px;
+}
+
+.section_1 > h1{
+    height: 162px;
+    font-weight: normal;
+    font-size: 56px;
+    color: #000000;
+    padding: 50px 0px;
+}
+
+.section_1 > h4{
+    position: static;
+    width: 487px;
+    height: 62px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.6;
+    margin: 55px 0px;
+}
+
+.btn{
+    position: static;
+    width: 282px;
+    height: 63px;
+    background: #FFB21E;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    border-color: #FFB21E;
+    margin: -20px 0px;
+}
+
+.section_2{
+    width: 40%;
+    height: 100%;
+}
+
+.section_2 > img{
+    margin: 0px -300px;
+}
+
+.image{
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    margin: 500px -160px;
+}
+
+.image_2{
+    position: absolute;
+    height: 24px;
+    background: #1254FF;
+    opacity: 0.1;
+    margin: 170px 430px;
+}
+
+.image_3{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background: conic-gradient(from 180deg at 50% 50%, rgba(18, 84, 255, 0.25) 0deg, rgba(18, 84, 255, 0.25) 0.04deg, rgba(255, 255, 255, 0) 360deg);
+    transform: rotate(90deg);
+    margin: 500px 350px;
+}
+
+.image_4{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    margin: 10px 1220px;
+}
+
+.image_5{
+    position: absolute;
+    width: 100px;
+    height: 171px;
+    left: 1200px;
+    top: 350px;
+}
+
+.goals{
+    width: 100%;
+    height: 463px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.section_3{
+    width: 414px;
+    height: 463px;
+}
+
+.section_4{
+    width: calc(100% - 450px);
+    height: 463px;
+    margin-left: 36px;
+    position: relative;
+}
+
+.section_4 > p{
+    width: 61px;
+    height: 29px;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-top: 95px;
+}
+
+.section_4 > h1{
+    width: 295px;
+    height: 99px;
+    font-weight: normal;
+    font-size: 64px;
+    color: #000000;
+}
+
+.section_4 > h4{
+    width: 666px;
+    height: 93px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.section_4 > h3{
+    width: 125px;
+    height: 31px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #1254FF;
+}
+
+.section_4 > i{
+    position: absolute;
+    color: #1254FF;
+    margin: -20px 140px;
+}
+
+.image_6{
+    position: absolute;
+    margin: -80px 730px;
+}
